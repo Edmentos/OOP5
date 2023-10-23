@@ -9,5 +9,11 @@ public class Main {
 
         //Call the display info method
         student1.displayInfo();
+
+        Person user = new Person();
+
+        user.getUserInput();
+
+        user.displayInfo();
         }
     }
